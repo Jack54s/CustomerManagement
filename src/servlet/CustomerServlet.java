@@ -61,7 +61,7 @@ public class CustomerServlet extends BaseServlet {
 
         request.setAttribute("pb",pb);
 
-        return "f:/list.jsp";
+        return "/list.jsp";
     }
 
     private int getPc(HttpServletRequest request)

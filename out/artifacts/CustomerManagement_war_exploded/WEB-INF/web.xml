@@ -7,11 +7,9 @@
         <servlet-name>CustomerServlet</servlet-name>
         <servlet-class>servlet.CustomerServlet</servlet-class>
     </servlet>
-
-
+    
     <servlet-mapping>
         <servlet-name>CustomerServlet</servlet-name>
         <url-pattern>/CustomerServlet</url-pattern>
     </servlet-mapping>
-
 </web-app>
